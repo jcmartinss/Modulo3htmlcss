@@ -1,0 +1,42 @@
+@font-face {
+    font-family: texto;
+    src: url('adelia_3/adelia.otf') format(opentype);
+}
+
+@font-face {
+    font-family: cabeca;
+    src: url('relationship_of_melodrame/Relationship\ of\ mélodrame.ttf') format(truetype);
+}
+body{
+    background-color: black;
+}
+header{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+header h1,h2{
+    color: white;
+    font-family: cabeca;
+    font-size: 2.5em;
+}
+main{
+   
+    background-color: white;
+}
+
+main > p{
+    font-family: texto;
+    font-size: 1.3em;
+    padding: 5px;
+}
+footer{
+    background-color: gray;
+    margin: 0px;
+}
+footer > p{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+}
