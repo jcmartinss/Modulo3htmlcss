@@ -21,7 +21,7 @@ header h1,h2{
     font-size: 2.5em;
 }
 main{
-   
+   margin: 0px;
     background-color: white;
 }
 
@@ -29,6 +29,7 @@ main > p{
     font-family: texto;
     font-size: 1.3em;
     padding: 5px;
+    margin: 0px;
 }
 footer{
     background-color: gray;
